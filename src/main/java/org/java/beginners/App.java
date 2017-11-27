@@ -13,8 +13,13 @@ public class App
         System.out.println( "Hello World!" );
         
         //Using Variables
-        UsingVariables using_variables = new UsingVariables();
-        using_variables.usevariables();
+        //UsingVariables using_variables = new UsingVariables();
+        //using_variables.usevariables();
+        
+        //Using Flow Management
+        FlowManagement fmgmt = new FlowManagement();
+        fmgmt.useWhileLoop();
+        fmgmt.useForLoop();
         
     }
     
