@@ -18,8 +18,12 @@ public class App
         
         //Using Flow Management
         FlowManagement fmgmt = new FlowManagement();
-        fmgmt.useWhileLoop();
-        fmgmt.useForLoop();
+        //fmgmt.useWhileLoop();
+        //fmgmt.useForLoop();
+        //fmgmt.useIf();
+        //fmgmt.useUserInput();
+        //fmgmt.useDoWhile();
+        fmgmt.useSwitch();
         
     }
     
